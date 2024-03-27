@@ -12,6 +12,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
+                implementation("com.ucasoft.kcron:kcron-core:0.10.5")
                 implementation("com.ucasoft.kcron:kcron-common:0.10.5")
             }
         }
