@@ -1,5 +1,6 @@
 import com.ucasoft.kcron.Cron
+import com.ucasoft.kcron.core.extensions.hours
 
 fun main() {
-    Cron.parseAndBuild("* 12 ? * *").expression
+    Cron.builder().hours(1)
 }
